@@ -1,0 +1,31 @@
+{
+  "name": "dom-sandbox",
+  "version": "0.0.0",
+  "description": "super simple dom sandboxing for testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "browserify test/*.js | testling"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jarofghosts/dom-sandbox.git"
+  },
+  "keywords": [
+    "browser",
+    "testing",
+    "testling",
+    "dom",
+    "sandbox"
+  ],
+  "author": "jesse keane <me@jessekeane.me>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jarofghosts/dom-sandbox/issues"
+  },
+  "homepage": "https://github.com/jarofghosts/dom-sandbox",
+  "devDependencies": {
+    "browserify": "^6.3.2",
+    "tape": "^3.0.3",
+    "testling": "^1.7.1"
+  }
+}
