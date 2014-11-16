@@ -1,6 +1,9 @@
 dom-sandbox
 ===========
 
+[![Build Status](http://img.shields.io/travis/jarofghosts/dom-sandbox.svg?style=flat)](https://travis-ci.org/jarofghosts/dom-sandbox)
+[![npm install](http://img.shields.io/npm/dm/dom-sandbox.svg?style=flat)](https://www.npmjs.org/package/dom-sandbox)
+
 super-simple dom sandboxing for tests
 
 ## Why?
