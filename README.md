@@ -36,6 +36,11 @@ var testWidget = require('../something/else')
 testWidget(dom()) // pass the element directly
 ```
 
+## Notes
+
+* Also provides a `.destroy()` method that removes the generated element from
+  the DOM.
+
 ## license
 
 MIT
