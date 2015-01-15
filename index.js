@@ -16,6 +16,9 @@ function sandbox(html) {
 }
 
 function destroy() {
-  document.body.removeChild(el)
+  if(el && el.parentNode) {
+    el.parentNode.removeChild(el)
+  }
+
   el = null
 }

@@ -40,7 +40,7 @@ test('returns the created/updated element', function(t) {
 })
 
 test('destroy method removes element from dom', function(t) {
-  t.plan(2)
+  t.plan(3)
 
   dom('<div id="merp"></div>')
 
@@ -48,4 +48,8 @@ test('destroy method removes element from dom', function(t) {
   dom.destroy()
 
   t.ok(!document.getElementById('merp'))
+
+  t.doesNotThrow(function() {
+    dom.destroy()
+  })
 })
