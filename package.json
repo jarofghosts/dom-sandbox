@@ -1,6 +1,6 @@
 {
   "name": "dom-sandbox",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "super simple dom sandboxing for testing",
   "main": "index.js",
   "scripts": {
@@ -18,7 +18,9 @@
     "sandbox"
   ],
   "testling": {
-    "browsers": ["phantomjs"]
+    "browsers": [
+      "phantomjs"
+    ]
   },
   "author": "jesse keane <me@jessekeane.me>",
   "license": "MIT",
